@@ -4,7 +4,6 @@
     export let tabs = [
         { name: "Projects ", link: "#projects" },
         { name: "About me", link: "#about" },
-        { name: "Blog", link: "" },
         // { name: "Contact", link: "" },
         // {name: '', link: ''},
     ];
@@ -24,7 +23,7 @@
             <a
                 href={tab.link}
                 class="duration-200 hover:text-blue-400"
-                target={index === 2 ? "_blank" : ""}
+                target=""
             >
                 <p>{tab.name}</p>
             </a>

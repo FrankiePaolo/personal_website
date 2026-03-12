@@ -3,28 +3,21 @@
 
     let steps = [
         {
-            name: "Fintech enthusiast",
-            icon: "fa-solid fa-credit-card-alt",
+            name: "Neon Def",
+            icon: "fa-solid fa-gamepad",
+            href: "https://neon-def.netlify.app/",
             description:
-                "Passionate about the intersection of finance and technology. Constantly exploring innovative solutions to revolutionize the financial industry, from blockchain technology to AI-driven financial planning. Committed to making financial services more accessible and efficient through technology.",
-        },
-        {
-            name: "Data science",
-            icon: "fa-solid fa-bar-chart",
-            description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-        },
-        {
-            name: "MarketWatch Dashnboard",
-            icon: "fa-solid fa-area-chart",
-            description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "A neon-themed tower defense game built as a creative side project, blending game design with web development.",
         },
     ];
 
     let benefits = [
         {
-            metric: "10x",
+            name: "a fintech enthusiast",
+            description:
+                "Passionate about the intersection of finance and technology. Constantly exploring innovative solutions to revolutionize the financial industry, from blockchain technology to AI-driven financial planning. Committed to making financial services more accessible and efficient through technology.",
+        },
+        {
             name: "an experienced software engineer",
             description:
                 "I bring extensive experience as a software engineer with a proven track record of delivering high-quality solutions for major clients. My portfolio includes significant contributions to projects for industry leaders, showcasing my expertise in areas such as Java, Scala, functional and parallel programming, Typescript, Python, C, and cloud services. I worked as a fullstack and backend developer. My main focus has always been on the back-end even though I'm currently experimenting with the wonderful Svelte Many of my most impactful achievements are under strict NDAs, highlighting my commitment to confidentiality and my involvement in cutting-edge, proprietary technologies.",
@@ -99,37 +92,12 @@
                 Curious to <span class="poppins text-blue-400">see</span> my work?
             </h3>
         </div>
-        <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-blue-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 max-w-[500px] mx-auto gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Passionate about the intersection of  <strong class="text-blue-400">finance and technology</strong>. Constantly exploring innovative solutions 
-                    to revolutionize the financial industry, from <strong class="text-blue-400">blockchain technology to AI-driven financial planning</strong>. Committed to making financial services more 
-                    accessible and efficient through technology.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    Ultimate Data Science Tasks is a comprehensive solution utilizing <strong class="text-blue-400">Python</strong>,
-                    <strong class="text-blue-400">Jupyter Notebooks</strong>, and <strong class="text-blue-400">Pandas</strong>,
-                    designed for seamless data analysis, visualization, and machine learning exploration. This application empowers users to interact with datasets, conduct efficient data processing, and ensure persistence of valuable insights across analytical workflows.
-                </p>
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    The MarketWatch Dashboard is a <strong class="text-blue-400"
-                        >Svelte & Bulma</strong
-                    >
-                    web application, deployed on
-                    <strong class="text-blue-400">Heroku</strong>, designed to analyze and visualize live market data sourced from the
-                    <strong class="text-blue-400">Financial Market API</strong>. Stay informed and make data-driven decisions in the dynamic world of finance!
+                    A <strong class="text-blue-400">neon-themed tower defense</strong> game built as a creative side project, blending
+                    <strong class="text-blue-400">game design</strong> with modern
+                    <strong class="text-blue-400">web development</strong>. Defend your base against waves of enemies in a vibrant neon world!
                 </p>
             </Step>
         </div>
